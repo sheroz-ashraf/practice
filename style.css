@@ -1,0 +1,163 @@
+body{
+    background-color: black;
+}
+.logo{
+    width:50%;
+    height:50%;
+}
+.logo img{
+    width:100px;
+    height:100px;
+    margin-top:10px;
+}
+
+.nav-bar nav{
+    display:flex;
+    align-items: center;
+    margin-left:0 auto;
+}
+.nav-items a{
+   text-decoration:none;
+   margin-left:20px;
+   border:1px solid aqua;
+   border-radius:4px;
+   color:aqua;
+   padding:5px;
+   transition: all 0.5s ease;
+}
+.nav-items a:hover{
+    border:none;
+    background-color:aqua;
+    color:black;
+}
+.intro-section{
+    padding:10px;
+    margin-top:20%;
+    border-left:2px solid white;
+    border-right:2px solid white;
+}
+.image{
+}
+.image img{
+    width:100%;
+    height:80%;
+    margin-left:10px;
+}
+span{
+    color:aqua;
+    font-family: sans-serif;
+}
+h1,h3,p{
+    color: white;
+    font-family: 'Lugrasimo', cursive;
+    font-style: italic;
+}
+.intro-section .section-1{
+    width:50%;
+    height:50%;
+}
+.intro-section .section-1 p{
+    margin-top:15%;
+}
+button.btn{
+    border:1px solid aqua;
+    border-radius:5px;
+    color:aqua;
+    background-color:black;
+    padding:10px;
+    transition:all 0.5s ease;
+    margin-top:10%;
+}
+button.btn:hover{
+    border:none;
+    color:black;
+    background-color:aqua;
+}
+.about-us{
+    padding:10px;
+    margin-top:20%;
+    border-left:2px solid aqua;
+    border-right:2px solid aqua;
+}
+.about-us-content{
+    width:50%;
+    height:300px;
+    margin-left:15px;
+}
+.about-us-img img{
+    width:500px;
+    height:250px;
+}
+button.about-btn{
+    border:1px solid aqua;
+    border-radius:5px;
+    color:aqua;
+    background-color:black;
+    padding:10px;
+    transition:all 0.5s ease;
+}
+button.about-btn:hover{
+    border:none;
+    color:black;
+    background-color:aqua;
+}
+.services{
+    padding:10px;
+    margin-top:20%;
+    border-left:2px solid aqua;
+    border-right:2px solid aqua;
+}
+}
+.service-section{
+    margin-top:10%;
+}
+.service-heading{
+    text-align: center;
+    margin-bottom:10px;
+}
+.card-tit{
+    color:aqua;
+}
+.card-bg{
+    background-color:black;
+}
+.my-img{
+    transition:all 0.5s ease;
+}
+.my-img:hover{
+    border-radius:40px;
+    transform:translate(5px,12px);
+}
+.footer-section{
+    width:100%;
+    height:300px;
+    margin-top:30px;
+    background-image:url(./images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:70px;
+}
+.footer-items{
+    margin-top:;
+    font-size:50px;
+    border:1px solid white;
+    color:white;
+    border-radius:40px;
+    padding:10px;
+    transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+.footer-items:hover{
+    color:aqua;
+    border:none;
+    background-color:white;
+    transform:translate(6px,10px);
+}
+.main-logo{
+    text-align:center;
+}
+.main-logo .foot-img{
+    width:80px;
+    height:80px;
+    margin-top:10px;
+}
